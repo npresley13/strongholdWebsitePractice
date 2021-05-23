@@ -1,0 +1,21 @@
+nav {
+    list-style-type: none;
+}
+
+#primary-nav {
+    background-color: black;
+}
+
+#secondary-nav {
+    background-color: gray;
+}
+
+#primary-nav > li {
+    display: inline-block;
+    justify: right;
+    margin: 8px 15px;
+}
+
+#secondary-nav > li {
+    display: inline;
+}
