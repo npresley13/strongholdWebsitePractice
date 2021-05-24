@@ -1,21 +1,31 @@
-nav {
-    list-style-type: none;
+/* Main Navigation */
+
+nav > ul {
+    list-style: none;
 }
 
 #primary-nav {
-    background-color: black;
+    border-style: solid;
 }
 
 #secondary-nav {
-    background-color: gray;
+    border-style: solid;
 }
 
-#primary-nav > li {
-    display: inline-block;
-    justify: right;
-    margin: 8px 15px;
+#primary-nav > ul {
+    display: flex;
+    justify-content: flex-end;
 }
 
-#secondary-nav > li {
-    display: inline;
+#secondary-nav > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#primary-nav > ul > li {
+    margin: 0px 15px;
+}
+
+#secondary-nav > ul > li {
+    margin: 0px 15px;
 }
