@@ -78,3 +78,33 @@ nav > ul {
     margin-right: auto;
     margin-top: 20px;
 }
+
+/* Grid Rules */
+
+.row {
+    clear: both;
+}
+
+.limited {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    padding: 0 2vw 0 2vw;
+    margin: 0 0 .75rem 0;
+    text-align: center;
+}
+
+.small-12 {
+    width: 100%;
+}
+
+/* Footer */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

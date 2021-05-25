@@ -1,5 +1,7 @@
-/* Main Navigation */
+
 @media only screen and (min-width: 1024px) {
+    
+    /* Main Navigation */
     
     nav {
         border-style: none;
@@ -29,7 +31,11 @@
         margin: 2px 15px;
     }
 
- 
+    /* Footer */
+    
+    .large-3 {
+        width: 25%;
+    }
 
 } /* end of media query */
 
