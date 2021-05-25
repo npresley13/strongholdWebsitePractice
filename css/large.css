@@ -7,7 +7,7 @@
         border-style: none;
     }
 
-    #primary-nav {
+    .primary-nav {
         display: flex;
         justify-content: flex-end;
         border-style: solid;
@@ -15,7 +15,7 @@
         margin: 0;
     }
     
-    #secondary-nav {
+    .secondary-nav {
         display: flex;
         justify-content: flex-end;
         border-style: solid;
@@ -23,11 +23,11 @@
         margin: 0;
     }
     
-    #primary-nav > li {
+    .primary-nav > a {
         margin: 8px 15px;
     }
     
-    #secondary-nav > li {
+    .secondary-nav > a {
         margin: 2px 15px;
     }
 

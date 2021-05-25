@@ -15,6 +15,18 @@ body {
     font-weight: 300;
 }
 
+/* Header */
+
+header {
+    display: block;
+    text-align: center;
+}
+
+header img {
+    max-width: 25%;
+    margin: 10px;
+}
+
 /* Navigation */
 
 nav {
@@ -22,26 +34,34 @@ nav {
     padding: 0;
 }
 
-nav > ul {
-    list-style: none;
+nav > div {
+    display: block;
     text-align: center;
     padding: 0;
 }
 
-#primary-nav {
+.primary-nav a {
     margin-bottom: 0;
+    display: block;
 }
 
-#secondary-nav {
+.secondary-nav a {
     margin-top: 0;
+    display: block;
+}
+
+nav > div > input {
+    max-width: 150px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 /* Homepage Hero Section */
 
 .hero {
     border-style: solid;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     padding: 50px 0;
 }
 
@@ -49,34 +69,28 @@ nav > ul {
 
 .homepage-who-we-are {
     border-style: solid;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
 
 
 /* Hompage Products */
 
-.homepage-products > ul {
-    display: block;
-    margin: 0;
-    padding: 0;
-    
-}
-
-.homepage-products > ul > li {
+.homepage-products > a {
     list-style: none;
     border-style: solid;
     padding: 10px;
     margin: 15px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+    max-width: 50%;
 }
 
 .homepage-products > button {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
+    padding: 8px;
 }
 
 /* Grid Rules */
