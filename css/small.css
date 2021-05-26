@@ -18,42 +18,58 @@ body {
 /* Header */
 
 header {
-    display: block;
-    text-align: center;
+    display: flex;
 }
 
 header img {
-    max-width: 25%;
+    max-height: 50px;
     margin: 10px;
 }
 
+
 /* Navigation */
 
+button#hamburgerBtn {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+}
+
 nav {
-    border-style: solid;
-    padding: 0;
+    background-color: rgb(100, 97, 97);
 }
 
-nav > div {
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+nav ul.open {
     display: block;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li.active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    display: block;
+    padding: 1rem, 0;
+    color: #fff;
     text-align: center;
-    padding: 0;
+    text-decoration: none;
 }
 
-.primary-nav a {
-    margin-bottom: 0;
-    display: block;
-}
-
-.secondary-nav a {
-    margin-top: 0;
-    display: block;
-}
-
-nav > div > input {
-    max-width: 150px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Homepage Hero Section */
@@ -111,11 +127,11 @@ nav > div > input {
     text-align: center;
 }
 
+/* Footer */
+
 .small-12 {
     width: 100%;
 }
-
-/* Footer */
 
 .clearfix:after {
     content: "";
