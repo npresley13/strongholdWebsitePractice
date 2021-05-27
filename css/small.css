@@ -104,10 +104,13 @@ nav a:hover {
 /* Homepage Hero Section */
 
 .hero {
-    border-style: solid;
     display: block;
     text-align: center;
-    padding: 50px 0;
+    max-height: 400px;
+}
+
+.hero > img {
+    max-width: 100%;
 }
 
 
