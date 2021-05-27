@@ -15,6 +15,26 @@ body {
     font-weight: 300;
 }
 
+
+/* Grid Rules */
+
+.row {
+    clear: both;
+}
+
+.limited {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    padding: 0 2vw 0 2vw;
+    margin: 0 0 .75rem 0;
+    text-align: center;
+}
+
+
 /* Header */
 
 header {
@@ -50,6 +70,9 @@ nav {
 nav ul {
     margin: 0;
     padding: 0;
+}
+
+nav ul {
     display: none;
 }
 
@@ -77,6 +100,7 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+
 /* Homepage Hero Section */
 
 .hero {
@@ -85,6 +109,7 @@ nav a:hover {
     text-align: center;
     padding: 50px 0;
 }
+
 
 /* Homepage - Who we are section */
 
@@ -97,15 +122,16 @@ nav a:hover {
 
 /* Hompage Products */
 
+.homepage-products {
+    margin-top: 15px;
+}
+
 .homepage-products > a {
     list-style: none;
     border-style: solid;
     padding: 10px;
-    margin: 15px;
     display: block;
     text-align: center;
-    margin: 15px auto;
-    max-width: 50%;
 }
 
 .homepage-products > button {
@@ -114,23 +140,6 @@ nav a:hover {
     padding: 8px;
 }
 
-/* Grid Rules */
-
-.row {
-    clear: both;
-}
-
-.limited {
-    max-width: 1140px;
-    margin: auto;
-}
-
-.column {
-    float: left;
-    padding: 0 2vw 0 2vw;
-    margin: 0 0 .75rem 0;
-    text-align: center;
-}
 
 /* Footer */
 
