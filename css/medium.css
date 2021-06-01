@@ -1,11 +1,16 @@
 @media only screen and (min-width: 768px) {
 
-    /* Footer */
+    /* Grid Rules */
 
     .medium-6 {
         width: 50%;
     }
 
+    .medium-4 {
+        width: 33%;
+    }
+
+    
     /* Homepage Product */
 
 
