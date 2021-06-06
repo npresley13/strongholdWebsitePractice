@@ -158,7 +158,7 @@ nav a:hover {
     margin-top: 15px;
 }
 
-.homepage-products > a {
+.homepage-products > section {
     list-style: none;
     border-style: solid;
     padding: 10px;
@@ -166,7 +166,7 @@ nav a:hover {
     text-align: center;
 }
 
-.homepage-products > button {
+#homepage-products-button {
     display: block;
     margin: 20px auto 0 auto;
     padding: 8px;
