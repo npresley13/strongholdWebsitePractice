@@ -365,7 +365,7 @@ button#hamburgerBtn {
   padding: 0 30px 0 2vw; }
 
 nav {
-  background-color: #646161; }
+  background-color: #f2f2f2; }
 
 nav ul {
   margin: 0;
@@ -380,18 +380,22 @@ nav ul.open {
 nav li {
   list-style-type: none; }
 
-nav li.active {
-  background-color: rgba(0, 0, 0, 0.5); }
-
 nav a {
   display: block;
   padding: 1rem, 0;
-  color: #fff;
+  color: #202020;
   text-align: center;
   text-decoration: none; }
 
+nav li.active {
+  background-color: #ee3030; }
+
+nav li.active a {
+  color: #fff; }
+
 nav a:hover {
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: #202020;
+  color: #fff; }
 
 /* Homepage Hero Section */
 .hero {
@@ -437,7 +441,10 @@ nav a:hover {
 #homepage-products-button {
   display: block;
   margin: 20px auto 0 auto;
-  padding: 8px; }
+  padding: 8px;
+  background-color: #ee3030;
+  color: #fff;
+  border: none; }
 
 /* Footer */
 @media only screen and (min-width: 768px) {
