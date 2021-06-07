@@ -29,7 +29,6 @@ body {
 }
 
 .column {
-    
     padding: 0 2vw 0 2vw;
     text-align: center;
 }
@@ -37,8 +36,6 @@ body {
 .product-column {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 2vw 0 2vw;
-    margin: 0 0 .75rem 0;
     text-align: center;
 }
 
@@ -96,7 +93,6 @@ nav li {
 }
 
 nav a {
-    display: block;
     padding: 1rem, 0;
     color: $primaryBlack;
     text-align: center;
