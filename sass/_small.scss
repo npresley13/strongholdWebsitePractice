@@ -19,7 +19,8 @@ body {
 /* Grid Rules */
 
 .row {
-    clear: both;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .limited {
@@ -28,31 +29,27 @@ body {
 }
 
 .column {
-    float: left;
+    
     padding: 0 2vw 0 2vw;
     text-align: center;
 }
 
 .product-column {
-    float: left;
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 2vw 0 2vw;
     margin: 0 0 .75rem 0;
     text-align: center;
 }
 
 .small-12 {
-    width: 100%;
+    flex-basis: 100%;
 }
 
 .small-6 {
-    width: 50%;
+    flex-basis: 50%;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 /* Header */
 
@@ -167,7 +164,6 @@ nav a:hover {
     list-style: none;
     border-style: solid;
     padding: 10px;
-    display: block;
     text-align: center;
 }
 
