@@ -90,13 +90,14 @@ nav ul.open {
 
 nav li {
     list-style-type: none;
+    text-align: center;
 }
 
 nav a {
     padding: 1rem, 0;
     color: $primaryBlack;
-    text-align: center;
     text-decoration: none;
+    display: block;
 }
 
 nav li.active {
@@ -107,8 +108,11 @@ nav li.active a {
     color: $primaryWhite;
 }
 
+nav li:hover {
+    background-color: $primaryBlack; 
+}
+
 nav a:hover {
-    background-color: $primaryBlack;
     color: $primaryWhite;
 }
 

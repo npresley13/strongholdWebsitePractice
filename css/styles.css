@@ -333,8 +333,6 @@ body {
 .product-column {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 2vw 0 2vw;
-  margin: 0 0 .75rem 0;
   text-align: center; }
 
 .small-12 {
@@ -374,14 +372,14 @@ nav ul.open {
   display: block; }
 
 nav li {
-  list-style-type: none; }
+  list-style-type: none;
+  text-align: center; }
 
 nav a {
-  display: block;
   padding: 1rem, 0;
   color: #202020;
-  text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  display: block; }
 
 nav li.active {
   background-color: #ee3030; }
@@ -389,8 +387,10 @@ nav li.active {
 nav li.active a {
   color: #fff; }
 
+nav li:hover {
+  background-color: #202020; }
+
 nav a:hover {
-  background-color: #202020;
   color: #fff; }
 
 /* Homepage Hero Section */
