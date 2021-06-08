@@ -437,10 +437,10 @@ nav a:hover {
   display: block;
   margin: 20px auto 0 auto;
   padding: 8px;
-  background-color: #ee3030;
+  background: #ee3030;
   color: #fff;
   border: none;
-  transition: all .2s ease; }
+  transition: background .2s ease, border .2s ease; }
 
 #homepage-products-button a {
   text-decoration: none; }

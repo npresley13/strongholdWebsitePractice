@@ -171,10 +171,10 @@ nav a:hover {
     display: block;
     margin: 20px auto 0 auto;
     padding: 8px;
-    background-color: $primaryColor;
+    background: $primaryColor;
     color: $primaryWhite;
     border: none;
-    transition: all .2s ease;
+    transition: background .2s ease, border .2s ease;
 }
 
 #homepage-products-button a {
@@ -191,7 +191,6 @@ nav a:hover {
     background: none;
     color: $primaryBlack;
     cursor: pointer;
-    
 }
 
 /* Footer */
