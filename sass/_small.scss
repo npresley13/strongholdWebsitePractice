@@ -174,8 +174,25 @@ nav a:hover {
     background-color: $primaryColor;
     color: $primaryWhite;
     border: none;
+    transition: all .2s ease;
 }
 
+#homepage-products-button a {
+    text-decoration: none;
+}
+
+#homepage-products-button a:visited {
+    color: $primaryWhite;
+}
+
+#homepage-products-button:hover {
+    border-style: solid;
+    border-color: black;
+    background: none;
+    color: $primaryBlack;
+    cursor: pointer;
+    
+}
 
 /* Footer */
 
