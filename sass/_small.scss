@@ -186,9 +186,8 @@ nav a:hover {
 }
 
 #homepage-products-button:hover {
-    border-style: solid;
     border-color: black;
-    background: none;
+    background: $primaryGray;
     color: $primaryBlack;
     cursor: pointer;
 }
