@@ -39,6 +39,10 @@ body {
     text-align: center;
 }
 
+.industries-column {
+    display: flex;
+}
+
 .small-12 {
     flex-basis: 100%;
 }
@@ -190,6 +194,20 @@ nav a:hover {
     background: $primaryGray;
     color: $primaryBlack;
     cursor: pointer;
+}
+
+
+/* Industries We Serve */
+
+#industries-content {
+    flex-direction: column;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+#industries-content h2 {
+    text-align: center;
 }
 
 /* Footer */
