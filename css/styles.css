@@ -582,6 +582,19 @@ nav a:hover {
     flex-basis: 33.3333333333%;
   }
 
+  .industries-column {
+    flex-direction: row;
+  }
+
+  #industries-content {
+    flex-basis: 40%;
+    margin: 5% 0;
+  }
+
+  #industries-list {
+    flex-basis: 60%;
+  }
+
   /* Homepage Product */
 }
 /* end of media query */

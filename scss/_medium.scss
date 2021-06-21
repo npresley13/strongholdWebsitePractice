@@ -10,6 +10,19 @@
         flex-basis: 33.33333333333%;
     }
 
+    .industries-column {
+        flex-direction: row;
+    }
+    
+    #industries-content {
+        flex-basis: 40%;
+        margin: 5% 0;
+    }
+
+    #industries-list {
+        flex-basis: 60%;
+    }
+
     
     /* Homepage Product */
 
