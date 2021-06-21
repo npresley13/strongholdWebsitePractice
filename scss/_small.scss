@@ -40,6 +40,30 @@ body {
     cursor: pointer;
 }
 
+.secondaryButton {
+    padding: 8px;
+    background: $primaryColor;
+    color: $primaryWhite;
+    border: none;
+    transition: background .2s ease, border .2s ease;
+}
+
+.secondaryButton a {
+    text-decoration: none;
+}
+
+.secondaryButton a:visited {
+    color: $primaryWhite;
+}
+
+.secondaryButton:hover {
+    border-color: black;
+    background: $primaryBlack;
+    color: $primaryWhite;
+    cursor: pointer;
+}
+
+
 /* Grid Rules */
 
 .row {

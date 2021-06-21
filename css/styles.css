@@ -354,6 +354,53 @@ body {
   font-weight: 300;
 }
 
+/* Element Styling */
+.primaryButton {
+  padding: 8px;
+  background: #ee3030;
+  color: #fff;
+  border: none;
+  transition: background 0.2s ease, border 0.2s ease;
+}
+
+.primaryButton a {
+  text-decoration: none;
+}
+
+.primaryButton a:visited {
+  color: #fff;
+}
+
+.primaryButton:hover {
+  border-color: black;
+  background: #f2f2f2;
+  color: #202020;
+  cursor: pointer;
+}
+
+.secondaryButton {
+  padding: 8px;
+  background: #ee3030;
+  color: #fff;
+  border: none;
+  transition: background 0.2s ease, border 0.2s ease;
+}
+
+.secondaryButton a {
+  text-decoration: none;
+}
+
+.secondaryButton a:visited {
+  color: #fff;
+}
+
+.secondaryButton:hover {
+  border-color: black;
+  background: #202020;
+  color: #fff;
+  cursor: pointer;
+}
+
 /* Grid Rules */
 .row {
   display: flex;
