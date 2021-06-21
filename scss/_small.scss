@@ -15,6 +15,30 @@ body {
     font-weight: 300;
 }
 
+/* Element Styling */
+
+.primaryButton {
+    padding: 8px;
+    background: $primaryColor;
+    color: $primaryWhite;
+    border: none;
+    transition: background .2s ease, border .2s ease;
+}
+
+.primaryButton a {
+    text-decoration: none;
+}
+
+.primaryButton a:visited {
+    color: $primaryWhite;
+}
+
+.primaryButton:hover {
+    border-color: black;
+    background: $primaryGray;
+    color: $primaryBlack;
+    cursor: pointer;
+}
 
 /* Grid Rules */
 
