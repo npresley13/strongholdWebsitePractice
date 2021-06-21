@@ -253,12 +253,16 @@ nav a:hover {
     flex-basis: 100%;
     text-align: center;
     background-color: $primaryGray;
-    padding: 10px;
+    padding: 1em;
     margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #industries-content h2 {
-    text-align: center;
+    margin: 0;
 }
 
 #industries-list {
