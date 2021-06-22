@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Practice Strong Hold Site</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="">
+        <img src="images/stongHoldLogo.png" alt="strong hold logo">
+        <input type="text" placeholder="Search">
+        <button id="hamburgerBtn">&#9776;</button>
+    </header>
+
+    <nav>
+        <div class="limited">
+            <ul id="primaryNav" class="open">
+                <li class="active"><a href="">Cart</a></li>
+                <li><a href="">Quote</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Industries</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+       <form action="">
+           <label for="fist-name">First Name:</label>
+           <input type="text" name="first-name" id="first-name">
+           <label for="last-name">Last Name:</label>
+           <input type="text" name="last-name" id="last-name">
+           <label for="email">Email:</label>
+           <input type="email" name="email" id="email">
+           <label for="job-title">Job Title:</label>
+           <input type="text" name="job-title" id="job-title">
+           <label for="company">Company:</label>
+           <input type="text" name="company" id="company">
+           <label for="phone">Phone:</label>
+           <input type="tel" name="phone" id="phone">
+        <fieldset>
+            <legend>Are You a Dealer?</legend>
+            <input type="radio" name="dealer" id="dealer-yes" value="yes">
+            <label for="dealer-yes">Yes</label>
+            <input type="radio" name="dealer" id="dealer-np" value="no">
+            <label for="dealer-no">No</label>
+        </fieldset>
+        <fieldset>
+            <legend>Where Have You Seen Us?</legend>
+            <input type="checkbox" name="hear-about-us" id="facebook" value="facebook">
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" name="hear-about-us" id="instagram" value="instagram">
+            <label for="instagram">Instagram</label>
+            <input type="checkbox" name="hear-about-us" id="tik-tok" value="tik-tok">
+            <label for="tik-tok">Tik-Tok</label>
+            <input type="checkbox" name="hear-about-us" id="trade-show" value="trade-show">
+            <label for="trade-show">Trade Show</label>
+        </fieldset>
+            <label for="your-message">Your Message</label>
+            <textarea name="your-message" id="your-message" cols="40" rows="5"></textarea>
+       </form>
+    </main>
+    <script src="functions.js"></script>
+</body>
+
+</html>
