@@ -623,6 +623,37 @@ nav a:hover {
 }
 
 /* Footer */
+/* Form */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.primary-form {
+  width: 80%;
+  max-width: 500px;
+  display: block;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-6 {
+  flex-direction: row;
+}
+
+.form-6 div {
+  padding: none;
+  width: 100%;
+}
+
+.form-6 div input {
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   /* Grid Rules */
   .medium-6 {
