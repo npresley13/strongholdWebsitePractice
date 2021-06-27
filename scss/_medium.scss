@@ -26,5 +26,22 @@
     
     /* Homepage Product */
 
+    /* Form Rules */
 
+    .parent-form {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .form-cart {
+        margin: 1em;
+        justify-self: center;
+        flex-basis: 100%;
+    }
+
+    .primary-form {
+        flex-basis: 100%;
+        margin: 1em;
+    }
 

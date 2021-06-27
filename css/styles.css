@@ -653,6 +653,26 @@ form > div {
   justify-content: space-between;
 }
 
+.form-cart {
+  background-color: #f2f2f2;
+  margin: 1em auto 2em auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: fit-content;
+  padding: 10px;
+}
+
+.form-cart h2 {
+  justify-content: flex-start;
+  margin: 0 0 0.5em 0;
+}
+
+.form-cart tr {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media only screen and (min-width: 768px) {
   /* Grid Rules */
   .medium-6 {
@@ -677,6 +697,23 @@ form > div {
   }
 
   /* Homepage Product */
+  /* Form Rules */
+  .parent-form {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  .form-cart {
+    margin: 1em;
+    justify-self: center;
+    flex-basis: 100%;
+  }
+
+  .primary-form {
+    flex-basis: 100%;
+    margin: 1em;
+  }
 }
 /* end of media query */
 @media only screen and (min-width: 1024px) {
