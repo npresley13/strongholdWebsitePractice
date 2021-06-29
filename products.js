@@ -1,4 +1,4 @@
-let products = [
+const products = [
     {
         prodSKU: "46-243-L",
         prodName: "Heavy Duty 14 GA Cabinet with 3 Shelves - 48 In. W x 24 In. D x 75 In. H",
@@ -37,3 +37,13 @@ let products = [
     }
 ]
     
+
+let prodFeed = document.getElementById('product-store');
+let div = document.createElement('div');
+let par = document.createElement('p');
+
+products.forEach(function(product) {
+    newDiv = prodFeed.appendChild(div);
+    newDiv.appendChild(par).innerHTML = product.prodSKU;
+    newDiv.appendChild(par).innerHTML = product.prodName;
+});
