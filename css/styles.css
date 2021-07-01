@@ -624,6 +624,15 @@ nav a:hover {
 
 /* Footer */
 /* Form */
+#form-h1-container {
+  display: flex;
+  justify-content: center;
+}
+
+#form-h1 {
+  margin: 2em 0;
+}
+
 .form-wrapper {
   display: flex;
   justify-content: center;
