@@ -45,3 +45,8 @@
         margin: 1em;
     }
 
+/* STORE */
+
+#product-store {
+    grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+}
