@@ -448,60 +448,6 @@ header img {
 }
 
 /* Navigation */
-button#hamburgerBtn {
-  background: none;
-  border: none;
-  color: black;
-  font-size: 2.4rem;
-  cursor: pointer;
-  padding: 0 30px 0 2vw;
-}
-
-nav {
-  background-color: #f2f2f2;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav ul {
-  display: none;
-}
-
-nav ul.open {
-  display: block;
-}
-
-nav li {
-  list-style-type: none;
-  text-align: center;
-}
-
-nav a {
-  padding: 1rem, 0;
-  color: #202020;
-  text-decoration: none;
-  display: block;
-}
-
-nav li.active {
-  background-color: #ee3030;
-}
-
-nav li.active a {
-  color: #fff;
-}
-
-nav li:hover {
-  background-color: #202020;
-}
-
-nav a:hover {
-  color: #fff;
-}
-
 /* Homepage Hero Section */
 .hero {
   display: block;

@@ -32,7 +32,7 @@ const nav = document.querySelector('.main-nav');
 //Function to toggle menu open and closed
 function toggleNav() {
     burger.classList.toggle('fa-bars')
-    burger.classList.toggle('fa-times')
+    burger.classList.toggle('fa-xmark')
     nav.classList.toggle('nav-active')
 }
 
