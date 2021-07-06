@@ -117,8 +117,10 @@ header img {
 /* Navigation */
 
 #main-nav {
-    display: none;
+    display: flex;
 }
+
+
 
 .nav-active {
     display: block;

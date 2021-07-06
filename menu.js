@@ -26,14 +26,15 @@ navs.map(nav => `<li class="navLink"><a href="${nav.Url}" class="${nav.Class}">$
 document.getElementById('primaryNav').innerHTML = navBarMarkup;
 
 //Select HTML elements
-const burger = document.getElementById('hamburgerBtn');
-const nav = document.getElementById('main-nav');
+const burger = document.querySelector('.burger i');
+const nav = document.querySelector('.nav');
 
 //Function to toggle menu open and closed
-function toggleNav() {
+function toggleNav(){
     burger.classList.toggle('fa-bars');
     burger.classList.toggle('fa-xmark');
     nav.classList.toggle('nav-active');
+    console.log('success');
 }
 
 //add event listener for click
