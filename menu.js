@@ -27,13 +27,13 @@ document.getElementById('primaryNav').innerHTML = navBarMarkup;
 
 //Select HTML elements
 const burger = document.getElementById('hamburgerBtn');
-const nav = document.querySelector('.main-nav');
+const nav = document.getElementById('main-nav');
 
 //Function to toggle menu open and closed
 function toggleNav() {
-    burger.classList.toggle('fa-bars')
-    burger.classList.toggle('fa-xmark')
-    nav.classList.toggle('nav-active')
+    burger.classList.toggle('fa-bars');
+    burger.classList.toggle('fa-xmark');
+    nav.classList.toggle('nav-active');
 }
 
 //add event listener for click

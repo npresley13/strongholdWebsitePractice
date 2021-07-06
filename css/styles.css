@@ -448,6 +448,14 @@ header img {
 }
 
 /* Navigation */
+#main-nav {
+  display: none;
+}
+
+.nav-active {
+  display: block;
+}
+
 /* Homepage Hero Section */
 .hero {
   display: block;
