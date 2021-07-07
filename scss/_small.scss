@@ -106,6 +106,8 @@ body {
 
 header {
     display: flex;
+    justify-content: right;
+    flex-flow: row nowrap;
 }
 
 header img {
@@ -113,19 +115,47 @@ header img {
     margin: 10px;
 }
 
+.burger i{
+    cursor: pointer;
+}
+
 
 /* Navigation */
 
 #main-nav {
-    display: flex;
-}
+    margin: 0;
+    background: $primaryGray;
+    position: absolute;
+    right: -100%;
+    top: 70px;
+    width: 50%;
+    height: calc(100% - 70px);
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    transition: all 400ms;
+    color: white;
+    font-size: 1.5rem;
+} 
 
-
-
-.nav-active {
+#primaryNav.nav-active {
     display: block;
 }
 
+#primaryNav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-active {
+    right: 0;
+}
 
 /* Homepage Hero Section */
 

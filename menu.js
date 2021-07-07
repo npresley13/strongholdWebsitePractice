@@ -1,22 +1,22 @@
 const navs = [{
     Text: "Home",
     Url: "index.html",
-    Class: "home-link"
+    Class: "nav-link"
 },
 {
     Text: "Quote",
     Url: "form.html",
-    Class: "form-link"
+    Class: "nav-link"
 },
 {
     Text: "Products",
     Url: "store.html",
-    Class: "store-link"
+    Class: "nav-link"
 },
 {
     Text: "Industries",
     Url: "industries.html",
-    Class: "industries-link"
+    Class: "nav-link"
 }]
 
 //loops through navs and creates <li> for each nav item
@@ -32,9 +32,8 @@ const nav = document.querySelector('.nav');
 //Function to toggle menu open and closed
 function toggleNav(){
     burger.classList.toggle('fa-bars');
-    burger.classList.toggle('fa-xmark');
+    burger.classList.toggle('fa-times');
     nav.classList.toggle('nav-active');
-    console.log('success');
 }
 
 //add event listener for click
