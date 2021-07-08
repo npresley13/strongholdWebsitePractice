@@ -28,16 +28,21 @@ document.getElementById('primaryNav').innerHTML = navBarMarkup;
 //Select HTML elements
 const burger = document.querySelector('.burger i');
 const nav = document.querySelector('.nav');
+const navClose = document.querySelector('.nav i');
 
 //Function to toggle menu open and closed
 function toggleNav(){
     burger.classList.toggle('fa-bars');
-    burger.classList.toggle('fa-times');
+    navClose.classList.toggle('fa-times');
     nav.classList.toggle('nav-active');
 }
 
 //add event listener for click
 
 burger.addEventListener('click', function(){
+    toggleNav();
+});
+
+navClose.addEventListener('click', function(){
     toggleNav();
 });
