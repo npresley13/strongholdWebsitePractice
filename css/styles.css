@@ -458,7 +458,7 @@ header img {
 .nav {
   display: flex;
   margin: 0;
-  background: #f2f2f2;
+  background: #fff;
   position: absolute;
   right: -100%;
   width: 100%;
@@ -483,8 +483,31 @@ header img {
   flex-direction: column;
 }
 
+.nav i {
+  width: fit-content;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.nav i:hover {
+  cursor: pointer;
+}
+
 .nav-link {
   text-decoration: none;
+  line-height: 2em;
+}
+
+.nav-link ~ .nav-link {
+  margin-top: 10px;
+}
+
+.nav-link:visited {
+  color: #202020;
+}
+
+.nav-link:hover {
+  cursor: pointer;
 }
 
 .nav-active {
