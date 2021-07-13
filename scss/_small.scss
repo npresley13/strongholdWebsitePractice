@@ -143,6 +143,7 @@ header div input {
 
 /* Navigation */
 
+//added to the body to prevent scrolling when mobile menu is open
 .lock-scroll {
     position: fixed;
 }
@@ -163,6 +164,8 @@ header div input {
     color: black;
     font-size: 1.5rem;
     z-index: 2;
+    border-top-style: solid;
+    border-color: $primaryColor;
 } 
 
 #primaryNav.nav-active {
@@ -237,7 +240,6 @@ header div input {
 /* Homepage - Who we are section */
 
 .homepage-who-we-are {
-    border-style: solid;
     display: block;
     text-align: center;
 }

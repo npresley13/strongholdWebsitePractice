@@ -34,6 +34,9 @@ const navClose = document.querySelector('.nav i');
 function toggleNav(){
     burger.classList.toggle('fa-bars');
     burger.classList.toggle('fa-times');
+    //When mobile menu is open, this if statement will lock the body so
+    //it doesn't scroll. 
+    document.body.classList.toggle('lock-scroll');
     nav.classList.toggle('nav-active');
 }
 
@@ -42,8 +45,3 @@ function toggleNav(){
 burger.addEventListener('click', function(){
     toggleNav();
 });
-
-//When mobile menu is open, this if statement will lock the body so
-//it doesn't scroll. 
-
-if(getElementById(''))
