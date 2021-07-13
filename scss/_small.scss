@@ -112,6 +112,11 @@ header {
     flex-flow: row nowrap;
     margin: 0;
     padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
 }
 
 header img {
@@ -123,11 +128,12 @@ header div {
     display: flex;
     flex-direction: row;
     padding: 1em;
+    align-items: center;
 }
 
 header div input {
     height: 2em;
-    margin-top: 8px;
+    width: auto;
 }
 
 .burger i{
@@ -137,6 +143,10 @@ header div input {
 
 /* Navigation */
 
+.lock-scroll {
+    position: fixed;
+}
+
 .nav {
     display: flex;
     margin: 0;
@@ -144,15 +154,15 @@ header div input {
     position: absolute;
     right: -100%;
     width: 100%;
-    height: 100%;
-    top: 50px;
+    height: 100vh;
+    top: 100%;
     flex-direction: column;
     justify-content: flex-start;
     padding: 0;
     transition: all 400ms;
     color: black;
     font-size: 1.5rem;
-    z-index: 1;
+    z-index: 2;
 } 
 
 #primaryNav.nav-active {
@@ -164,14 +174,14 @@ header div input {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
-}
-
-.nav i {
-    width: fit-content;
-    margin-left: 1em;
     margin-top: 1em;
 }
+
+// .nav i {
+//     // width: fit-content;
+//     // margin-left: 1em;
+//     // margin-top: 1em;
+// }
 
 .nav i:hover {
     cursor: pointer;
@@ -180,14 +190,11 @@ header div input {
 .nav-link {
     text-decoration: none;
     line-height: 2em;
-}
-
-.nav-link ~ .nav-link {
-    margin-top: 10px;
+    color: $primaryBlack;
 }
 
 .nav-link:visited {
-    color: $primaryBlack;
+    color: none;
 }
 
 .nav-link:hover {
@@ -214,6 +221,7 @@ header div input {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    z-index: 0;
 }
 
 .hero > h1 {

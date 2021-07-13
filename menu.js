@@ -33,7 +33,7 @@ const navClose = document.querySelector('.nav i');
 //Function to toggle menu open and closed
 function toggleNav(){
     burger.classList.toggle('fa-bars');
-    navClose.classList.toggle('fa-times');
+    burger.classList.toggle('fa-times');
     nav.classList.toggle('nav-active');
 }
 
@@ -43,6 +43,7 @@ burger.addEventListener('click', function(){
     toggleNav();
 });
 
-navClose.addEventListener('click', function(){
-    toggleNav();
-});
+//When mobile menu is open, this if statement will lock the body so
+//it doesn't scroll. 
+
+if(getElementById(''))
