@@ -145,7 +145,7 @@ header div input {
 
 //added to the body to prevent scrolling when mobile menu is open
 .lock-scroll {
-    position: fixed;
+    overflow: hidden;
 }
 
 .nav {

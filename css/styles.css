@@ -476,7 +476,7 @@ header div input {
 
 /* Navigation */
 .lock-scroll {
-  position: fixed;
+  overflow: hidden;
 }
 
 .nav {
