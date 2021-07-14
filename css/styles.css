@@ -802,7 +802,44 @@ form > div {
     margin-left: 15px;
   }
 
-  /* Main Navigation */
+  /* Navigation */
+  .burger i {
+    display: none;
+  }
+
+  #header-right {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .nav {
+    display: flex;
+    position: relative;
+    right: auto;
+    top: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+    background-color: none;
+    height: auto;
+    align-items: center;
+  }
+
+  #primaryNav {
+    flex-direction: row;
+    margin: 0;
+    margin-right: 1em;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-link {
+    margin-left: 2em;
+  }
+
+  header div input {
+    margin-right: 2em;
+  }
 }
 /* end of media query */
 
