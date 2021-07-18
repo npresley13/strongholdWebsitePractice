@@ -242,15 +242,11 @@ header div input {
 /* Hompage Products */
 
 .homepage-products {
-    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
-.homepage-products > section {
-    list-style: none;
-    border-style: solid;
-    padding: 10px;
-    text-align: center;
-}
+
 
 #homepage-products-button {
     display: block;
