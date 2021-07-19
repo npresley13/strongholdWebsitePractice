@@ -571,6 +571,12 @@ header div input {
 .homepage-products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1em;
+}
+
+.product-category {
+  background-color: gray;
+  height: 300px;
 }
 
 #homepage-products-button {
