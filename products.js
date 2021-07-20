@@ -46,10 +46,11 @@ products.forEach(function(product) {
     let par3 = document.createElement('p');
     let img1 = document.createElement('img');
     img1.src = product.prodImg;
-    img1.className = "product-overview-image"
+    img1.className = "product-overview-image";
+    img1.alt = `${product.prodName}, ${product.prodSKU}`;
     newDiv = prodFeed.appendChild(div);
     newDiv.className = "prodDiv";
-    newDiv.appendChild(img1).innerHTML = "image added";
+    newDiv.appendChild(img1);
     newDiv.appendChild(par1).innerHTML = product.prodSKU;
     newDiv.appendChild(par2).innerHTML = product.prodName;
     newDiv.appendChild(par3).innerHTML = product.prodPrice;

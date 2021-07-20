@@ -48,9 +48,20 @@
     }
 
     .nav-link {
-        margin-left: 2em;
+        margin: 1em;
+        padding: 0;
     }
-    
+    .nav-link:hover {
+        cursor: pointer;
+        background-color: transparent;
+        color: $primaryColor;
+    }
+
+    #primaryNav li:hover {
+        background-color: transparent;
+        cursor: default;
+    }
+
     header div input {
         margin-right: 2em;
     }

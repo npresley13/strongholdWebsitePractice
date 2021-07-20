@@ -178,6 +178,12 @@ header div input {
     justify-content: space-between;
     flex-direction: column;
     margin-top: 1em;
+    padding: 0;
+}
+
+#primaryNav li:hover {
+    background-color: $primaryGray;
+    cursor: pointer;
 }
 
 .nav i:hover {
@@ -188,6 +194,8 @@ header div input {
     text-decoration: none;
     line-height: 2em;
     color: $primaryBlack;
+    width: 100%;
+    padding-left: 2em;
 }
 
 .nav-link:visited {
@@ -196,6 +204,7 @@ header div input {
 
 .nav-link:hover {
     cursor: pointer;
+    background-color: $primaryGray;
 }
 
 .nav-active {
