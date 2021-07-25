@@ -614,6 +614,13 @@ header div input {
   cursor: pointer;
 }
 
+/* Custom Solutions */
+.custom,
+.superior-construction,
+.exceptional-service {
+  padding: 0 2em;
+}
+
 /* Industries We Serve */
 #industries-content {
   flex-basis: 100%;
@@ -861,6 +868,15 @@ form > div {
 
   header div input {
     margin-right: 2em;
+  }
+}
+/* end of media query */
+@media only screen and (min-width: 1200px) {
+  /* Custom Solutions */
+  .custom,
+.superior-construction,
+.exceptional-service {
+    padding: 0;
   }
 }
 /* end of media query */

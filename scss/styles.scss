@@ -11,3 +11,13 @@
 @media only screen and (min-width: 1024px) {
     @import "large";
 } /* end of media query */
+
+@media only screen and (min-width: 1200px) {
+    /* Custom Solutions */
+
+    .custom,
+    .superior-construction,
+    .exceptional-service {
+        padding: 0;
+    }
+} /* end of media query */
