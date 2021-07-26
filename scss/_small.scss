@@ -16,6 +16,10 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    margin-top: 6em;
+}
+
 /* Element Styling */
 
 .primaryButton {
@@ -352,11 +356,11 @@ header div input {
 /* Form */
 
 #form-h1-container {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
 
-#form-h1 {
+.form-h1 {
     margin: 2em 0;
 }
 
