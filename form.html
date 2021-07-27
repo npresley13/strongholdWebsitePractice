@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="form-wrapper">
-                    <form action="" class="primary-form">
+                    <form name="quote-form" action="" class="primary-form" onsubmit="return formValidation()">
                         <div class="form-6">
                             <div>
                                 <label for="fist-name">First Name:</label>
@@ -115,13 +115,16 @@
                             <textarea name="your-message" id="your-message" cols="90%" rows="5"
                                 style="max-width: 500px;"></textarea>
                         </div>
+                        <div class="form-submit-div">
+                            <input class="form-submit" type="submit" value="Submit">
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </main>
     <script src="menu.js"></script>
-    <script src="functions.js"></script>
+    <script src="forms.js"></script>
 </body>
 
 </html>
